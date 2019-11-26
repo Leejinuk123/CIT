@@ -49,7 +49,7 @@ int main(void){
 > ## 선정 질문
     [박형민] 링크드 리스트와 밑에 있는 코드에 대해 설명해주세요.
 > ## 답변
-    해당 코드소스에 중요한 부분을 **주석처리** 하여 코드에 대한 설명을 함.
+    해당 코드소스에 중요한 부분을 주석처리 하여 코드에 대한 설명을 함.
 ```c++
 #include <stdio.h>
 #include <stdlib.h>
@@ -64,7 +64,7 @@ void AddList(int a){  //AddList라는 함수를 만듦.
  r->d = a; //a의 값을 r의 d에 저장
  r->p = NULL; //r의 p값을 비워둠.
  if(root==NULL) root = r; //root를 비교해 if문을 실행.
- else           last->p = r;
+ else           last->p = r; //last를 r로 링크
  last = r;
 }
 int main(void){ //main함수 실행.
