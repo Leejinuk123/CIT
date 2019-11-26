@@ -80,6 +80,7 @@ int main(void){ //main함수 실행.
  }
 }  
 ```  
+                답변에 대한 그림 설명 
 ![68186413-6e072100-ffe7-11e9-8784-c858e1e9332c](https://user-images.githubusercontent.com/50895748/69608307-827c8d80-106a-11ea-80a9-08cbd86ca294.png)
 * * *
 > ## 소감
