@@ -42,6 +42,8 @@ int main(void){
 질문 : const 함수 와 static 함수의 사용법에 대해 궁금합니다
 * * *  
 > ## 활동 사진
+![KakaoTalk_20191126_161606342_01](https://user-images.githubusercontent.com/50895748/69607253-3c262f00-1068-11ea-8b7e-e08aeb2b24f2.jpg)
+
 * * *
 > ## 선정 질문
     [박형민] 링크드 리스트와 밑에 있는 코드에 대해 설명해주세요.
