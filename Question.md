@@ -49,3 +49,30 @@ int main(void){
 > ## 선정 질문
     [박형민] 링크드 리스트와 밑에 있는 코드에 대해 설명해주세요.
 > ## 답변
+```c++
+#include <stdio.h>
+#include <stdlib.h>
+typedef struct list {
+ int d;
+ struct list* p; 
+} LIST; //LIST라는 이름의 구조체 형식을 정의해줌.
+LIST* root = NULL;
+LIST* last = NULL; //root와 last라는 구조체를 선언하고 비워둠.
+void AddList(int a){  //AddList라는 함수를 만듦.
+ LIST* r = (LIST*)malloc(sizeof(LIST)); //r 이라는 포인터의 메모리를 할당.
+ r->d = a; //a의 값을 r의 d에 저장
+ r->p = NULL; //r의 p값을 비워둠.
+ if(root==NULL) root = r; //root를 비교해 if문을 실행.
+ else           last->p = r;
+ last = r;
+}
+int main(void){ //main함수 실행.
+ AddList(35);
+ AddList(40);
+ AddList(45);
+ while(root){
+  printf("%d\n", root->d); //root값을 출력.
+  root = root->p;
+ }
+}  
+```  
