@@ -8,55 +8,33 @@
 
 [박형민]  
 질문 : 링크드 리스트와 밑에 있는 코드에 대해 설명해주세요.
-
+```c++
 #include <stdio.h>
-
 #include <stdlib.h>
-
 typedef struct list {
-
  int d;
- 
- struct list* p;
- 
+ struct list* p; 
 } LIST;
-
 LIST* root = NULL;
-
 LIST* last = NULL;
-
 void AddList(int a){
-
  LIST* r = (LIST*)malloc(sizeof(LIST));
- 
  r->d = a;
- 
  r->p = NULL;
- 
  if(root==NULL) root = r;
- 
  else           last->p = r;
- 
  last = r;
- 
 }
-
 int main(void){
-
  AddList(35);
- 
  AddList(40);
- 
  AddList(45);
- 
  while(root){
- 
   printf("%d\n", root->d);
-  
   root = root->p;
-  
  }
 }  
+```  
 [이진욱]
 질문 : 더블 포인트에 대한 자세한 설명과 예제가 필요합니다.
 
