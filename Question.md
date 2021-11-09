@@ -46,7 +46,6 @@ int main(void){
 * * *  
 > ## 활동 사진
 ![KakaoTalk_20191126_161606342_01](https://user-images.githubusercontent.com/50895748/69607253-3c262f00-1068-11ea-8b7e-e08aeb2b24f2.jpg)
-![KakaoTalk_20191126_161606342_02](https://user-images.githubusercontent.com/50895748/69607475-a63ed400-1068-11ea-962f-e524982a2e83.jpg)
 
 * * *
 > ## 선정 질문
